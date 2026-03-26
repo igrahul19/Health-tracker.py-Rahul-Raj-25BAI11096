@@ -30,3 +30,21 @@ Displays the number of users in each BMI category for basic data insights.
 Provides a simple and interactive console-based menu for easy navigation.
 8. Input Validation:-
 Handles invalid or incorrect inputs to prevent errors and ensure smooth execution.
+
+Prerequisites:
+
+Python 3.x installed on your system.
+
+How to Use:
+
+Save the Python code into a file named health tracker.py (or any preferred name).
+
+Open your terminal or command prompt.
+
+Navigate to the directory where you saved the file.
+
+Run the script using the following command:
+
+bash python health tracker.py
+
+Follow the on-screen prompts to select an operation and enter your name,weight,height.
