@@ -126,3 +126,19 @@ Menu:
 Enter your choice: 4
 
 Exiting... Stay healthy!
+
+
+Important note on existing:
+
+
+The application provides an Exit option in the menu to allow users to safely terminate the program. When the user selects this option, the system stops execution gracefully after displaying a closing message.
+
+Since the program uses in-memory data storage, all user records are temporary and will be lost once the program is exited. This ensures simplicity but also highlights the limitation of not having permanent data storage.
+
+Proper exit handling ensures:
+
+Smooth termination of the program
+
+Prevention of runtime errors
+
+Clear communication to the user with a final message
