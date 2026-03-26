@@ -48,3 +48,81 @@ Run the script using the following command:
 bash python health tracker.py
 
 Follow the on-screen prompts to select an operation and enter your name,weight,height.
+
+EXAMPLE INTERACTIONS:
+
+=== Personal Health Analytics Tool ===
+
+Menu:
+1. Add Entry
+2. View History
+3. View Statistics
+4. Exit
+
+Enter your choice: 1
+
+Enter name: Raj
+Enter weight (kg): 70
+Enter height (cm): 175
+
+Rahul's Result:
+BMI: 22.86
+Category: Healthy Weight
+Advice: Maintain your current lifestyle.
+
+
+Menu:
+1. Add Entry
+2. View History
+3. View Statistics
+4. Exit
+
+Enter your choice: 1
+
+Enter name: Aman
+Enter weight (kg): 90
+Enter height (cm): 170
+
+Aman's Result:
+BMI: 31.14
+Category: Obese
+Advice: Consult a doctor and follow a fitness plan.
+
+
+Menu:
+1. Add Entry
+2. View History
+3. View Statistics
+4. Exit
+
+Enter your choice: 2
+
+--- Saved Records ---
+Name: Raj | BMI: 22.86 | Status: Healthy Weight
+Name: Aman | BMI: 31.14 | Status: Obese
+
+
+Menu:
+1. Add Entry
+2. View History
+3. View Statistics
+4. Exit
+
+Enter your choice: 3
+
+--- Health Statistics ---
+Underweight: 0
+Healthy Weight: 1
+Overweight: 0
+Obese: 1
+
+
+Menu:
+1. Add Entry
+2. View History
+3. View Statistics
+4. Exit
+
+Enter your choice: 4
+
+Exiting... Stay healthy!
